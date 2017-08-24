@@ -61,7 +61,7 @@ stop()
 
 try:
     while True:
-        # begin Serial itelsim ile gelen byte turunde olan veri utf-8 formatında str veri tipine donusturuluyor
+        # begin Serial itelsim ile gelen byte turunde olan veri utf-8 formatinda str veri tipine donusturuluyor
         key = ser.readline().decode('utf-8')
         # end
         if(key != ''):
